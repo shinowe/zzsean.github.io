@@ -1,7 +1,7 @@
 # Site settings
-title: Zz Blog
+title: Sean Zz
 SEOTitle: 张政的博客 | Zz Blog
-header-img: img/home-bg.jpg
+header-img: img/home-bj.jpg
 email: 18818272991@163.com
 description: "菜鸟程序员|AI弱鸡|耳机轻烧|皇马死忠"
 keyword: "Zz，Sean，Real Madrid，Machine Learning"
@@ -12,9 +12,9 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 # SNS settings
 RSS: false
-weibo_username:     zzsean
-zhihu_username:     zzsean
-github_username:    zzsean
+weibo_username:     u/2302267583?is_all=1
+zhihu_username:     gong-mu-zi
+github_username:    ZzSean
 twitter_username:   zzsean
 #facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
@@ -48,10 +48,10 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+disqus_username: zz
 
 # Netease setttings
-netease_comment: true
+netease_comment: false
 
 
 
@@ -67,13 +67,13 @@ netease_comment: true
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "面朝大海，春暖花开<br>～～～"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "半路出家，三分热度<br>..."
+sidebar-avatar: /img/sean.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # Featured Tags
-featured-tags: false                    # whether or not using Feature-Tags
+featured-tags: true                    # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 
