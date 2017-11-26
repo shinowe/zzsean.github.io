@@ -7,10 +7,11 @@ author:     "Zz"
 header-img: "img/post-1.jpeg"
 catalog: true
 tags:
-    - python life
+    - python
+    - life
 ---
 
-> “Yeah It's on. ”
+> “Hi, ”
 
 
 ## 前言
