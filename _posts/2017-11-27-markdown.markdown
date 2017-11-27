@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Markdown"
-subtitle:   " How to use mark down"
+subtitle:   " How to use markdown"
 date:       星期一, 27. 十一月 2017 01:16下午 
 author:     "Zz"
 header-img: ""
@@ -11,32 +11,43 @@ tags:
 ---
 
 ## Text
-* *斜体* 	# * 文本 *
-_斜体_		#_ 文本 _
-* **粗体**   # *  * 文本 *  *
+* *斜体* 
+	
+_斜体_	
+	
+* **粗体**  
+
 类似斜体
 
-* 斜粗体 两者结合
+* 斜粗体 
+
+两者结合
+
 * 删除线
-~~ 删除效果 ~~  # ～～删除效果  ～～ （英文格式）
+
+~~ 删除效果 ~~  
+
 * 高亮
- ` 高亮 ` #``
+
+ ` 高亮 `
+ 
  * 代码块
  
  ``` python
+
  print('hello world')
+
  ```
  
  * 图片
  
- 方式1：
 ![cat](https://help.github.com/assets/images/site/favicon.ico "logo")
-方式2：
-![cat][img]
-[img]:https://help.github.com/assets/images/site/favicon.ico "logo"
+
 
 * 文本链接
-[文本链接](https://github.com/ZzSean)
+
+[Github](https://github.com/ZzSean)
  
 * 引用
+
 > 你好
