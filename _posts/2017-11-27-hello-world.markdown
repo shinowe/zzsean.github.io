@@ -11,19 +11,16 @@ tags:
     - life
 ---
 
-> “2017-11-27”
-
-这是摘要
-
----
 
 
-# Begin
 
-开blog的第一篇。算是demo。
+# 前言
+
+开blog的第一篇。
 
 
 # 正文
 
+> “hello world”
 Hello World！
 
