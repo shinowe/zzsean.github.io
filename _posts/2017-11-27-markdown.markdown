@@ -11,42 +11,34 @@ tags:
 ---
 
 ## Text
-* *斜体* 
-	
-_斜体_	
+* *斜体* 	
+	_斜体_	
 	
 * **粗体**  
-
-类似斜体
+	类似斜体
 
 * 斜粗体 
-
-两者结合
+	两者结合
 
 * 删除线
-
-~~ 删除效果 ~~  
+	~~ 删除效果 ~~  
 
 * 高亮
-
- ` 高亮 `
+	 ` 高亮 `
  
  * 代码块
- 
- ``` python
-
+  
+  ``` python
  print('hello world')
-
  ```
  
  * 图片
  
-![cat](https://help.github.com/assets/images/site/favicon.ico "logo")
+	![cat](https://help.github.com/assets/images/site/favicon.ico "logo")
 
 
 * 文本链接
-
-[Github](https://github.com/ZzSean)
+	[Github](https://github.com/ZzSean)
  
 * 引用
 
