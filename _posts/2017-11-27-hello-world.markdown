@@ -5,13 +5,11 @@ subtitle:   " \"Hello World, Hello Blog\""
 date:       2017-11-27 21:42:32
 author:     "Zz"
 header-img: "img/post-1.jpeg"
-catalog: true
+catalog: false
 tags:
     - python
     - life
 ---
-
-
 
 
 # 前言
@@ -22,5 +20,6 @@ tags:
 # 正文
 
 > “hello world”
+
 Hello World！
 
