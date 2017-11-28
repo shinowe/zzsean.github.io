@@ -14,9 +14,9 @@ tags:
 
 ## 前向传播
 	
-Input:  \\(a^{[l-1]}\\)
+Input:  $a^{[l-1]}$
 	
-Output: \\(a^{[l-1]}\\), cache \\(z^{[l]}\\)
+Output: \\( a^{[l-1]}\\), cache \\(z^{[l]} \\)
 
 * 公式
 
