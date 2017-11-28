@@ -2,7 +2,7 @@
 layout:     post
 title:      "Markdown"
 subtitle:   " How to use markdown"
-date:       星期一, 27. 十一月 2017 01:16下午 
+date:       2017-11-27 14:23:00
 author:     "Zz"
 header-img: ""
 catalog: false
