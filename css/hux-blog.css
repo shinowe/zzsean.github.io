@@ -1303,26 +1303,4 @@ legend {
     color: #000;
     border-bottom: 2px solid #e5e5e5;
 }
-/* 字体更好的手机端显示效果 */
-@media only screen and (max-width: 768px) {
-	/* 返回顶部贴右边 */
-	#back-top {
-	right: 0em;	
-	}
-	/* 文章左右两边留白 */
-	.row {
-		padding-left: 10px;
-		padding-right: 10px;
-		}
-	/* 字号统一调小 */
-	.post-container p {font-size: 14px}
-	.post-container li {font-size: 14px}
-	.post-container h2, h2 {font-size: 20px}
-	.post-container h3, h3 {font-size: 16px}
-	.post-container h4, h4 {font-size: 15px}
-	.MathJax span {font-size: 15px;}
-	legend { font-size: 20px;}
-	.tab-content a{ font-size: 14px}
-	.badge { font-size: 10px }
-	.text-muted {color: #bfbfbf;font-size: 14px;}
-}
+
