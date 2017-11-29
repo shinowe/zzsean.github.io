@@ -49,6 +49,7 @@ tags:
 ## 2. 偏差、方差
 
 欠拟合(underfitting)：高偏差(high bias)；
+
 过拟合(overfitting)：高方差(high variance)。
 
 ## 3. 机器学习基本方法
@@ -60,10 +61,10 @@ tags:
   + 训练更长时间；
   + 寻找合适的网络框架，使用更大的NN结构；
  
- * 是否存在high variance？
-  + 获取更多的数据；
-  + 正则化(regularization)；
-  + 寻找合适的网络结构。
+* 是否存在high variance？
+ + 获取更多的数据；
+ + 正则化(regularization)；
+ + 寻找合适的网络结构。
   
   
   
