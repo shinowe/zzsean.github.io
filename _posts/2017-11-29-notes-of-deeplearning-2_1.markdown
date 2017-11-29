@@ -5,7 +5,7 @@ subtitle:   " 深度学习的实践方面 "
 date:       2017-11-29 09:37:00
 author:     "Zz"
 header-img: ""
-catalog: false
+catalog: true
 tags:
     - deep learning
 ---
@@ -40,7 +40,7 @@ tags:
 
 * 超百万数据：99.5%:0.25%:0.25%。
 
-####注意
+#### 注意
 
 * 建议验证集要和训练集来自于同一个分布，可以使得机器学习算法变得更快；
 
