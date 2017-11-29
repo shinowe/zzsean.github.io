@@ -34,7 +34,8 @@ excerpt_separator:  "|"
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
 
-
+#默认底图
+header-img: img/default-bg.jpg
 
 # Markdown settings
 # replace redcarpet to kramdown,
@@ -76,6 +77,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
+BASE_PATH:
 
 
 
