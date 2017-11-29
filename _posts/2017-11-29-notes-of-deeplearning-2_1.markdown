@@ -5,7 +5,7 @@ subtitle:   " 深度学习的实践方面 "
 date:       2017-11-29 09:37:00
 author:     "Zz"
 header-img: ""
-catalog: true
+catalog: false
 tags:
     - deep learning
 ---
@@ -61,6 +61,7 @@ tags:
   + 训练更长时间；
   + 寻找合适的网络框架，使用更大的NN结构；
  
+
 * 是否存在high variance？
  + 获取更多的数据；
  + 正则化(regularization)；
