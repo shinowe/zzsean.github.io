@@ -34,8 +34,7 @@ excerpt_separator:  "|"
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
 
-#默认底图
-header-img: /img/default-bg.jpeg
+
 
 # Markdown settings
 # replace redcarpet to kramdown,
