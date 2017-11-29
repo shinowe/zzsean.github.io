@@ -35,7 +35,7 @@ excerpt_separator:  "|"
 gems: [jekyll-paginate]
 
 #默认底图
-header-img: img/default-bg.jpg
+header-img: /img/default-bg.jpeg
 
 # Markdown settings
 # replace redcarpet to kramdown,
