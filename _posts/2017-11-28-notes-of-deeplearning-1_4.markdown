@@ -2,7 +2,7 @@
 layout:     post
 title:      "Notes of DeepLearning 1_4"
 subtitle:   " 深层神经网络 "
-date:       星期二, 28. 十一月 2017 03:16下午 
+date:       2017-11-28 14:32:23
 author:     "Zz"
 header-img: ""
 catalog: false
