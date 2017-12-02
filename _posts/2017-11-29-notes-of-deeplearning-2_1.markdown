@@ -260,6 +260,7 @@ dropout的一大缺点就是其使得 Cost function不能再被明确的定义�
 WL = np.random.randn(WL.shape[0],WL.shape[1])* np.sqrt(1/n)
 ```
 这么做是因为，如果激活函数的输入\\(x\\)近似设置成均值为0，标准方差1的情况，输出\\(z\\)也会调整到相似的范围内。虽然没有解决梯度消失和爆炸的问题，但其在一定程度上确实减缓了梯度消失和爆炸的速度。
+
 **不同激活函数的Xavier initialization：**
 
 * 激活函数使用Relu：\\(Var(w_{i})=\dfrac{2}{n}\\)
