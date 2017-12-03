@@ -183,9 +183,9 @@ tags:
 加入正则化项的代价函数： \\[J(w^{[1]},b^{[1]},\cdots,w^{[L]},b^{[L]})=\dfrac{1}{m}\sum\limits_{i=1}^{m}l(\hat y^{(i)},y^{(i)})+\dfrac{\lambda}{2m}\sum\limits_{l=1}^{L}\Vert w^{[l]} \Vert_{F}^{2}\\]
 其中\\(\Vert w^{[l]} \Vert_{F}^{2}=\sum\limits_{i=1}^{n^{[l-1]}}\sum\limits_{j=1}^{n^{[l]}}(w_{ij}^{[l]})^{2}\\)，因为w的大小为\\((n^{[l]},n^{[l-1]})\\)，该矩阵范数被称为“Frobenius norm”
 
-加入正则化项之后，梯度及更新公式变为：\\[dW^{[l]} = (form\_backprop)+\dfrac{\lambda}{m}W^{[l]}\\]
+加入正则化项之后，梯度及更新公式变为：\\[dW^{[l]} = (formbackprop)+\dfrac{\lambda}{m}W^{[l]}\\]
 \\[W^{[l]}:= W^{[l]}-\alpha dW^{[l]}\\]
-代入可得：\\[W^{[l]}:= W^{[l]}-\alpha [ (form\_backprop)+\dfrac{\lambda}{m}W^{[l]}]\\\\ = W^{[l]}-\alpha\dfrac{\lambda}{m}W^{[l]} -\alpha(form\_backprop)\\\\=(1-\dfrac{\alpha\lambda}{m})W^{[l]}-\alpha(form\_backprop)\\]
+代入可得：\\[W^{[l]}:= W^{[l]}-\alpha [ (formbackprop)+\dfrac{\lambda}{m}W^{[l]}]\\\\ = W^{[l]}-\alpha\dfrac{\lambda}{m}W^{[l]} -\alpha(formbackprop)\\\\=(1-\dfrac{\alpha\lambda}{m})W^{[l]}-\alpha(formbackprop)\\]
 
 L2范数正则化也称为权重衰减（Weight decay）。
 
