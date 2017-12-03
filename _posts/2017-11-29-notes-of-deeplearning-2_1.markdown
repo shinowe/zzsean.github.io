@@ -185,7 +185,7 @@ tags:
 
 加入正则化项之后，梯度及更新公式变为：\\[dW^{[l]} = (form\_backprop)+\dfrac{\lambda}{m}W^{[l]}\\]
 \\[W^{[l]}:= W^{[l]}-\alpha dW^{[l]}\\]
-代入可得：\\[W^{[l]}:= W^{[l]}-\alpha [ (form\_backprop)+\dfrac{\lambda}{m}W^{[l]}]\\\ = W^{[l]}-\alpha\dfrac{\lambda}{m}W^{[l]} -\alpha(form\_backprop)\\\=(1-\dfrac{\alpha\lambda}{m})W^{[l]}-\alpha(form\_backprop)\\]
+代入可得：\\[W^{[l]}:= W^{[l]}-\alpha [ (form\_backprop)+\dfrac{\lambda}{m}W^{[l]}]\\\\ = W^{[l]}-\alpha\dfrac{\lambda}{m}W^{[l]} -\alpha(form\_backprop)\\\\=(1-\dfrac{\alpha\lambda}{m})W^{[l]}-\alpha(form\_backprop)\\]
 
 L2范数正则化也称为权重衰减（Weight decay）。
 
