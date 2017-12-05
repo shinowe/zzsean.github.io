@@ -1,4 +1,4 @@
----
+﻿---
 layout:     post
 title:      "Notes of DeepLearning 1_4"
 subtitle:   " 深层神经网络 "
@@ -34,8 +34,8 @@ Output: \\(da^{[l-1]}，dW^{[l]}，db^{[l]}\\)
 
 * 公式
 
-\\[dz^{[l]}=da^{[l]} * g^{[l]}{'}(z^{[l]})\\\dW^{[l]}=dz^{[l]}\cdot a^{[l-1]}\\\db^{[l]}=dz^{[l]}\\\da^{[l-1]}=W^{[l]}{^T}\cdot dz^{[l]}\\]
+\\[dz^{[l]}=da^{[l]} * g^{[l]}{''}(z^{[l]})\\\dW^{[l]}=dz^{[l]}\cdot a^{[l-1]}\\\db^{[l]}=dz^{[l]}\\\da^{[l-1]}=W^{[l]}{^T}\cdot dz^{[l]}\\]
 
 * 向量化程序
 
-\\[dZ^{[l]}=dA^{[l]} * g^{[l]}{'}(Z^{[l]})\\\dW^{[l]}=\dfrac{1}{m}dZ^{[l]}\cdot A^{[l-1]}\\\db^{[l]}=\dfrac{1}{m}np.sum(dZ^{[l]},axis=1,keepdims = True)\\\dA^{[l-1]}=W^{[l]}{^T}\cdot dZ^{[l]}\\]
+\\[dZ^{[l]}=dA^{[l]} * g^{[l]}{''}(Z^{[l]})\\\dW^{[l]}=\dfrac{1}{m}dZ^{[l]}\cdot A^{[l-1]}\\\db^{[l]}=\dfrac{1}{m}np.sum(dZ^{[l]},axis=1,keepdims = True)\\\dA^{[l-1]}=W^{[l]}{^T}\cdot dZ^{[l]}\\]
