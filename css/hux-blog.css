@@ -84,7 +84,7 @@
   text-indent: 0;
 }
 .side-catalog .catalog-body li {
-  position: relative;
+  position: right;
   list-style: none;
 }
 .side-catalog .catalog-body li a {
