@@ -1328,10 +1328,10 @@ input[type=text] {
 	right: 0em;	
 	}
 	/* 文章左右两边留白 */
-	.row {
+	/*.row {
 		padding-left: 10px;
 		padding-right: 10px;
-		}
+		}*/
 	/* 字号统一调小 */
 	.post-container p {font-size: 14px}
 	.post-container li {font-size: 14px}
