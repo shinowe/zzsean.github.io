@@ -1,23 +1,13 @@
 ﻿---
-
 layout:     post
-
 title:      "Notes of DeepLearning 2_1"
-
 subtitle:   " 深度学习的实践方面 "
-
 date:       2017-11-29 09:37:00
-
 author:     "Zz"
-
 header-img: ""
-
 catalog: true
-
 tags:
-
     - deep learning
-
 ---
 
 
