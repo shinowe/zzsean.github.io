@@ -1,4 +1,4 @@
-﻿---
+---
 layout:     post
 title:      "Notes of DeepLearning 1_4"
 subtitle:   " 深层神经网络 "
