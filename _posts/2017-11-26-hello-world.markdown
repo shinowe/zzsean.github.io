@@ -5,7 +5,7 @@ subtitle:   " \"Hello World, Hello Blog\""
 date:       2017-11-26 21:42:32
 author:     "Zz"
 header-img: "img/post-1.jpeg"
-catalog: false
+catalog: true
 tags:
     - python
     - life
