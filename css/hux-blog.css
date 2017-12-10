@@ -1296,7 +1296,7 @@ img::-moz-selection {
     color: rgba(252,252,252,0.81);
 }
 /* Archive 更好的显示效果 */
-legend {
+/*legend {
     font-size: 24px;
 	font-weight: bold;
     line-height: inherit;
