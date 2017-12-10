@@ -5,7 +5,7 @@ subtitle:   " 深度学习的实践方面 "
 date:       2017-11-29 09:37:00
 author:     "Zz"
 header-img: ""
-catalog: true
+catalog: false
 tags:
     - deep learning
 ---
