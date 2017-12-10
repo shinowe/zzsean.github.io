@@ -1,4 +1,4 @@
-﻿---
+---
 layout:     post
 title:      "Notes of DeepLearning 2_1"
 subtitle:   " 深度学习的实践方面 "
