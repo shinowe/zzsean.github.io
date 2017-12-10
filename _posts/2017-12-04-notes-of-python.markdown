@@ -12,7 +12,7 @@ author:     "Zz"
 
 header-img: ""
 
-catalog: false
+catalog: true
 
 tags:
 
